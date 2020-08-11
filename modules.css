@@ -1,0 +1,48 @@
+.a {
+  outline: 1px solid grey;
+  line-height: 75px;
+  text-align: center;
+}
+
+.b {
+  outline: 1px solid grey;
+  line-height: 150px;
+  text-align: center;
+}
+
+.c, .d {
+  outline: 1px solid grey;
+  line-height: 125px;
+  text-align: center;
+}
+
+.e, .f, .g, .h {
+  outline: 1px solid grey;
+  line-height: 250px;
+  text-align: center;
+}
+
+.i {
+  outline: 1px solid grey;
+  line-height: 80px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .a {
+    line-height: 100px;
+  }
+  
+  .b {
+    line-height: 600px;
+  }
+  
+  .c, .d {
+    line-height: 200px;
+  }
+
+  .i {
+    line-height: 150px;
+  }
+}
