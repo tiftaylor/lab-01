@@ -1,0 +1,68 @@
+body {
+  width: 480px;
+  margin: auto;
+}
+
+.a {
+  background-color: rgb(253, 97, 123);
+}
+.b {
+  background-color: rgb(248, 117, 139);
+}
+.c{
+  background-color: rgb(252, 138, 157);
+}
+.d{
+  background-color: rgb(252, 153, 170);
+}
+.e{
+  background-color: rgb(212, 79, 101);
+}
+.f{
+  background-color: rgb(218, 110, 128);
+}
+.g{
+  background-color: rgb(230, 166, 178);
+}
+.h{
+  background-color: rgb(250, 218, 223);
+}
+.i{
+  background-color: rgb(187, 159, 163);
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    width: 960px;
+    margin: auto;
+  }
+
+  .a {
+    background-color: rgb(0, 157, 255);
+  }
+  .b {
+    background-color: rgb(1, 94, 151);
+  }
+  .c{
+    background-color: rgb(24, 110, 163);
+  }
+  .d{
+    background-color: rgb(13, 71, 107);
+  }
+  .e{
+    background-color: rgb(122, 196, 243);
+  }
+  .f{
+    background-color: rgb(99, 156, 191);
+  }
+  .g{
+    background-color: rgb(63, 105, 131);
+  }
+  .h{
+    background-color: rgb(32, 54, 68);
+  }
+  .i{
+    background-color: rgb(61, 65, 67);
+  }
+
+}
