@@ -3,66 +3,109 @@ body {
   margin: auto;
 }
 
-.a {
-  background-color: rgb(253, 97, 123);
-}
-.b {
-  background-color: rgb(248, 117, 139);
-}
-.c{
-  background-color: rgb(252, 138, 157);
-}
-.d{
-  background-color: rgb(252, 153, 170);
-}
-.e{
-  background-color: rgb(212, 79, 101);
-}
-.f{
-  background-color: rgb(218, 110, 128);
-}
-.g{
-  background-color: rgb(230, 166, 178);
-}
-.h{
-  background-color: rgb(250, 218, 223);
-}
-.i{
-  background-color: rgb(187, 159, 163);
+/* added some space for prettiness  */
+header {
+  margin-top: 30px;
 }
 
-@media only screen and (min-width: 768px){
+/* // MOBILE View */
+.a {
+  background-color: rgb(5, 215, 252);
+}
+.b {
+  background-color: rgb(51, 224, 255);
+}
+.c{
+  background-color: rgb(80, 226, 252);
+}
+.d{
+  background-color: rgb(104, 230, 252);
+}
+.e{
+  background-color: rgb(126, 233, 252);
+}
+.f{
+  background-color: rgb(147, 236, 252);
+}
+.g{
+  background-color: rgb(169, 238, 250);
+}
+.h{
+  background-color: rgb(184, 238, 248);
+}
+.i{
+  background-color: rgb(202, 238, 245);
+}
+
+/* // TABLET View */
+@media only screen and (min-width: 768px) and (max-width: 980px){
+  body {
+    width: 770px;
+    margin: auto;
+  }
+  
+  .a {
+    background-color: rgb(252, 215, 5);
+  }
+  .b {
+    background-color: rgb(250, 217, 33);
+  }
+  .c{
+    background-color: rgb(250, 223, 71);
+  }
+  .d{
+    background-color: rgb(250, 227, 95);
+  }
+  .e{
+    background-color: rgb(250, 231, 121);
+  }
+  .f{
+    background-color: rgb(252, 236, 146);
+  }
+  .g{
+    background-color: rgb(250, 238, 171);
+  }
+  .h{
+    background-color: rgb(250, 242, 194);
+  }
+  .i{
+    background-color: rgb(250, 245, 219);
+  }
+}
+
+/* // DESKTOP View */
+@media only screen and (min-width: 981px){
   body {
     width: 960px;
     margin: auto;
   }
 
   .a {
-    background-color: rgb(0, 157, 255);
+    background-color: rgb(0, 160, 59);
   }
   .b {
-    background-color: rgb(1, 94, 151);
+    background-color: rgb(20, 159, 71);
   }
   .c{
-    background-color: rgb(24, 110, 163);
+    background-color: rgb(40, 158, 84);
   }
   .d{
-    background-color: rgb(13, 71, 107);
+    background-color: rgb(58, 156, 94);
   }
   .e{
-    background-color: rgb(122, 196, 243);
+    background-color: rgb(76, 155, 105);
   }
   .f{
-    background-color: rgb(99, 156, 191);
+    background-color: rgb(93, 155, 116);
   }
   .g{
-    background-color: rgb(63, 105, 131);
+    background-color: rgb(110, 155, 127);
   }
   .h{
-    background-color: rgb(32, 54, 68);
+    background-color: rgb(122, 151, 133);
   }
   .i{
-    background-color: rgb(61, 65, 67);
+    background-color: rgb(136, 151, 142);
   }
 
 }
